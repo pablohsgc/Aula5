@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(29, 94, 91);
+}
+
+nav ul{
+    box-sizing: border-box;
+    padding: 15px;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+/*iframe{
+    display: block;
+    margin: 0 auto;
+}*/
+
+.iframa-personalizado{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapa{
+    background-color: darkturquoise;
+}
+
+#game{
+    background-color: #53792f;
+}
+
+section{
+    padding: 20px;
+}
+
+footer{
+    height: 50px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
